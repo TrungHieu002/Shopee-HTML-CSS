@@ -7,6 +7,7 @@
   --star-gold-color: #ffce3e;
   --navbar-height: 3.4rem;
   --header-height: 12rem;
+  --header-sort-bar-height: 4.6rem;
   --header-with-search-height: calc(
     var(--header-height) - var(--navbar-height)
   );
@@ -24,15 +25,6 @@ html {
   line-height: 1.6rem;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
-}
-.grid {
-  /* chú ý độ phân giải cố định của màn hình là px em chỉ là độ phân giải của các thẻ html */
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-.grid__full-width {
-  width: 100%;
 }
 .grid__row {
   display: flex;
