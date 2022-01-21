@@ -1130,8 +1130,6 @@ i.home-product-item__like-icon-fill {
 .header__sort-item:first-child .header__sort-link::before {
   display: none;
 }
-.mobile-category {
-}
 .mobile-category__item {
   flex-shrink: 0;
   margin-right: 1rem;
